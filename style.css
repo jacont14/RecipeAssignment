@@ -1,0 +1,813 @@
+html {
+background-color: rgba(122, 191, 191, .5);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 414px;
+    background-color: #F2F2F2;
+}
+menu svg {
+    position: relative;
+    width: 40px;
+    margin-top: -10px;
+    margin-left: 40px;
+    left: -30px;
+}
+.text {
+    position: relative;
+    bottom: -45px;
+    color: #EB5428;
+    text-transform: uppercase;
+    left: -10px;
+    font-family: 'Bebas Neue', cursive;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+menu {
+    list-style: none;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 1px;
+}
+.img {
+    width: 100%;
+}
+
+h1,h2,h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+h1 {
+   margin-top: 1px;
+   
+}
+h3 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 30px;
+    margin-top: -25px;
+}
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ dd  {
+    position: relative;
+    left: 80px;
+    bottom: 18px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+dt  {
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+ ul li {
+   padding-top: 18px;
+   padding-left: 11px;
+}
+ul {
+    margin-top: -15px;
+    margin-left: -15px;
+   list-style-type: square;
+   font-family: 'Montserrat', sans-serif;
+}
+
+ol li {
+    margin-left: -18px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+aside img {
+    width: 32%;
+    padding-bottom: 0px;
+    margin-left: -28px;
+    margin-bottom: -100px;
+}
+.guacamole,.tortillas,.salsa,.rice {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: -130px;
+    font-family: 'Bebas Neue', cursive;
+}
+.guacamole h3{
+    position: relative;
+    left: 105px;
+    top: 30px;
+}
+.guacamole figcaption {
+    left: 135px;
+}
+.salsa h3{
+    position: relative;
+    left: 85px;
+    top: 30px;
+}
+.rice h3 {
+    position: relative;
+    left: 115px;
+    top: 30px;
+}
+.tortillas h3 {
+    position: relative;
+    left: 105px;
+    top: 30px;
+}
+aside h3 {
+   margin-bottom: -20px;
+   padding-top: 10px;
+}
+
+figcaption {
+    position: relative;
+    left: 180px;
+    top: 20px;    
+    font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+}
+aside svg {
+    margin-left: 8px;
+}
+aside dd {
+    position: relative;
+    left: 98px;
+    top: 25px;
+}
+aside dt {
+    position: relative;
+    left: 85px;
+    top: 15px;
+}
+aside {
+    padding-bottom: 30px;
+    background-color: #7ABFBF;
+    box-shadow: 0px 20px 0px 0 rgba(0,0,0,.1);
+}
+header {
+    padding-top: 185px;
+}
+
+li img {
+    width: 20%;
+}
+h1 {
+    visibility: hidden;
+    height: 1px;
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: absolute;
+    height: 29%;
+    z-index: 3;
+    padding-top: 70px;
+    top: -120px;
+    font-family: 'Bebas Neue', cursive;
+  }
+  .header menu {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+    background-color: #F2F2F2;
+  }
+  .header li a {
+    display: grid;
+    padding: 5px 38px;
+    text-decoration: none;
+    text-align: center;
+    color: #EB5428;
+  }
+
+.header .menu {
+  clear:both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 1000px;
+  }
+  
+  .header .menu-btn:checked ~ svg .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ svg .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ svg .navicon:after {
+    transform: rotate(45deg);
+  }
+  label svg {
+   position: relative;
+   left: 35px;
+   top: 15px;
+  }
+  .burger {
+    padding-left: 40px;
+    padding-top: 20px;
+    text-transform: uppercase;
+  }
+  
+.menu-btn {
+    position: relative;
+    height: 42px;
+    width: 270px;
+    border-width: 2px;
+    border-color: #EB5428;
+    left: 528px;
+}
+
+button {
+    background-color: #EB5428;
+    border: #F2F2F2;
+    position: absolute;
+    top: 120px;
+    margin-left: 320px;
+}
+.button {
+    display: flex;
+    position: absolute;
+    top: 121px;
+    margin-left: 42px;
+    height: 41px;
+    width: 280px;
+    border-style: solid;
+    border-color: #EB5428;
+}
+
+  .social {
+    display: flex;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top:-20px;
+  }
+    
+  footer img {
+    width: 50%;
+    position: relative;
+    top: -60px;
+  }
+  .svg {
+    position: relative;
+  }
+  .social svg {
+   position: relative;
+   left: -70px;
+   margin-left: 65px;
+  }
+  .social .text {
+    left: -35px;
+  }
+  
+
+  footer {
+    text-align: center;
+    margin-bottom:20px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+  }
+  footer small  {
+    position: relative;
+    top: 190px;   
+    font-size: 20px; 
+  }
+  footer p {
+    position: relative;
+    top: 170px;
+    margin-bottom: -35px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+  }
+
+  .in {
+    position: absolute;
+    top: 120px;
+    background-color: #EB5428;
+    left: 104px;
+    padding-top: 20px;
+    padding-bottom: 9px;
+    
+    
+  }
+  .in svg {
+    width: 100px;
+  }
+  .avatar {
+    position: absolute;
+    top: 113px;
+    left: 320px;
+    pointer-events:none;
+    width: 94px;
+    background-color: #fff;
+    padding:5px;
+    text-transform: uppercase;
+  }
+  .avatar svg {
+    left: -55px;
+    top: 10px;
+  }  
+  .sign {
+    position: relative;
+    top: 60px;
+    left: -37px;
+    margin-right: -5px;
+    color: black;
+  }
+  .transition li {
+    width: 415px;
+    margin-bottom: -1px;
+  }
+  .transition img {
+    margin-left: 135px;
+  }
+  .transition .text {
+    left: -80px;
+  }
+  
+  @media screen and (min-width:768px) {
+    body {
+        width: 768px;
+    }
+   .transition {
+    overflow: visible;
+        position: absolute;
+        top: 0;
+        display: flex;
+        top: 185px;
+   }
+   label span, input {
+    display: none;
+}
+.transition li {
+    width: 100px;
+    margin-left: 10px;
+}
+.transition img {
+    width: 55px;
+    margin-left: 15px;
+}
+.transition .text {
+    left: -7px;
+}
+.avatar {
+    left: 674px;
+    top: 100px;
+}
+.avatar svg {
+    left: -25px;
+    top: 10px;
+}
+header {
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.2);
+    padding-bottom: 0px;
+}
+label svg,.burger {
+    visibility: hidden;
+    height: 1px;
+}
+.in {
+    left: 0px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.in svg {
+    width: 50px;
+    margin-right: -14px;
+}
+.header li a {
+    padding: 7px 0px;
+}
+.header  {
+   box-shadow: none;
+}
+.sign {
+    visibility: hidden;
+}
+.sign::after {
+    visibility: visible;
+    position: relative;
+    content: "Sign In";
+    display: inline-block;
+    left: 0px;
+}
+#jump {
+    visibility: hidden;
+}
+#jump::after {
+    visibility: visible;
+    content: "jump";
+    position: relative;
+    left: -40px;
+}
+button {
+    top: 20px;
+    margin-left: 575px;
+}
+.button {
+    top: 21px;
+    margin-left: 296px;
+}
+h2 {
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 15px;
+}
+.transition .text {
+    top: 80px;
+}
+.flex {
+   
+    margin-bottom: 25px;
+    backdrop-filter:blur(60px);
+    padding-top: 13px;
+}
+ .flex svg {
+    margin-left: 160px;
+    margin-bottom: 20px;
+    left:-140px;
+}
+
+.flex .text {
+    left: -60px;
+}
+.details {
+    text-align: center;
+}
+
+.details dt {
+    margin-left: -110px;
+}
+.details dd {
+    margin-left: -40px;
+    margin-bottom: -13px;
+}
+.direction {
+    position: relative;
+    top: -400px;
+    margin-left: 200px;
+    margin-right: 5px;
+    margin-bottom: -430px;
+}
+.direction h3 {
+    margin-bottom: -10px;
+}
+
+.ingredient {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    padding-left: 45px;
+}
+ol li {
+    padding: 20px;
+}
+ul li {
+    margin-bottom: -5px;
+}
+aside {
+    padding-bottom: 0px;
+    height: 310px;
+    box-shadow: 0px 0px 0px 0 rgba(0,0,0,.1);
+}
+aside img {
+    width:13%;
+}
+.img {
+    margin-top: -100px;
+}
+figcaption {
+    left: 165px;
+    top: 45px;
+}
+.rice {
+    position: relative;
+    left:-12px
+}
+aside h3 {
+    margin-bottom: -60px;
+}
+aside dd {
+    left: 155px;
+}
+aside dt {
+    left: 70px;
+    top: 45px
+}
+
+.salsa h3 {
+    left:70px;
+    top: 10px;
+}
+.salsa {
+    position: relative;
+    left: 50px;
+    top: -65px;
+}
+.guacamole {
+    position: relative;
+    top: -64px;
+    left: -325px;
+}
+.guacamole h3 {
+    left: 93px;
+    top: 10px;
+}
+.guacamole figcaption {
+    left: 120px;
+}
+.tortillas {
+    position: relative;
+    left: 50px;
+    top: -183px;
+}
+.tortillas h3 {
+    left: 87px;
+    top: 10px;
+}
+.rice {
+    position: relative;
+    top: 50px;
+    left: -325px;
+}
+.rice h3 {
+    left: 103px;
+    top: 10px;
+}
+footer img {
+    width: 200px;
+    left: -210px;
+    top: -90px;
+}
+footer small {
+    top: 175px;
+    left: -200px;
+}
+footer p {
+    top: 155px;
+    left: -200px;
+}
+footer {
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+    margin-top: -60px;
+}
+.social {
+    padding-bottom: 50px;
+    margin-top: -50px;
+}
+.social svg {
+    left: 270px;
+}
+.social .text{
+    left: 302px;
+}
+}
+
+@media screen and (min-width:1280px) {
+    body {
+        width: 1280px;
+    }
+    .avatar {
+        left: 1170px;
+        top: 180px;
+    }
+    .avatar svg {
+        left: -10px;
+        top: 10px;
+    }
+    .sign::after {
+        visibility: visible;
+        position: relative;
+        content: "Sign In";
+        display: inline-block;
+        left: 15px;
+    }
+    button {
+        top: 159px;
+        margin-left: 785px;
+    }
+    .button {
+        top: 160px;
+        margin-left: 507px;
+    }
+    header {
+        margin-top: -70px;
+    }
+    h2 {
+        position: relative;
+        text-align: center;
+        top: 70px;
+    }
+
+    .transition img {
+        width: 55px;
+        margin-left: 255px;
+    }
+    .in {
+        left: 0px;
+        padding-top: 35px;
+        padding-bottom: 15px;
+        margin-top: 70px;
+    }
+    .in svg {
+        width: 50px;
+        margin-right: -1px;
+        margin-top: -7px;
+    }
+    .transition .text {
+        left: 130px;
+    }
+    .img {
+        position: relative;
+        width: 40%;
+        margin-left: 130px;
+        top: -623px;
+        margin-bottom: -650px;
+    }
+    .flex {
+        position: relative;
+        display: grid;
+        background-color: #fff;
+        width: 130px;
+        height: 770px;
+        padding-bottom: 350px;
+        top: 70px;
+        border: solid;
+        border-width: 2px;
+        border-color: #EB5428;
+    }
+    .flex svg {
+        left: -160px;
+    }
+    .flex .text {
+        margin-left: -40px;
+    }
+    .p {
+        position: relative;
+        left: 620px;
+        margin-right: 616px;
+        margin-left: 20px;
+        top: -760px;
+    }
+    .details {
+        margin-top: -190px;
+        padding-bottom: 20px;
+        color: #7ABFBF;
+        background-color: black;
+        margin-bottom: 40px;
+    }
+    .details dt {
+        position: relative;
+        margin-left: 80px;
+        top: -10px;
+        left: 7px;
+    }
+    .details dd {
+        left: -45px;
+        margin-right: 20px;
+        top: 10px;
+    }
+    .details dd:last-of-type {
+        left: -22px;
+    }
+    .details h3 {
+        padding-top: 10px;
+    }
+    .display {
+        display: flex;
+        position: relative;
+        left: -20px;
+        padding-top: 5px;
+    }
+    .direction {
+        top: -406px;
+        margin-right: 15px;
+        margin-bottom: -270px;
+        padding-left: 50px;
+    }
+    ol li {
+        padding-top: 0px;
+    }
+    .ingredient {
+        margin-bottom: 5px;
+        margin-top: -15px;
+    }
+    
+    aside {
+        height: 420px;
+    }
+    .rice {
+        left: -460px;
+    }
+    .rice h3 {
+        top: 220px;
+        left: -55px;
+    }
+    figcaption {
+        top: 160px;
+        left: 10px;
+    }
+    aside img {
+        width: 18%;
+    }
+    aside dt {
+        top: 170px;
+        left: -85px;
+    }
+    aside dd {
+        top: 150px;
+        left: 0px;
+    }
+    .salsa {
+        left: -150px;
+        top: -171px;
+    }
+    .salsa h3 {
+        top: 220px;
+        left: -88px;
+    }
+    .guacamole {
+        left: 160px;
+        top: -391px;
+    }
+    .guacamole figcaption {
+        left: -35px;
+    }
+    .guacamole h3 {
+        top: 220px;
+        left: -63px;
+    }
+    .tortillas {
+        left: 470px;
+        top: -610px;
+    }
+    .tortillas h3 {
+        left: -70px;
+        top: 220px;
+    }
+    .tortillas figcaption {
+        left: -2px;
+    }
+    .social {
+        position: relative;
+        left: 490px;
+        margin-bottom: -30px;
+    }
+footer {
+    position: relative;
+    left: -325px;
+    top: -1px;
+}
+footer small {
+    left: -15px;
+    top: -20px;
+}
+footer p {
+    left: -15px;
+    top: -40px;
+}
+footer img {
+    margin-bottom: -70px;
+    left: -180px;
+}
+
+    
+    
+    
+   
+}
+
